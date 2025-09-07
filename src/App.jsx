@@ -44,13 +44,13 @@ export default function Calculator() {
           ))}
           <button
             onClick={handleCalculate}
-            className="col-span-4 bg-green-600 hover:bg-green-500 text-white p-4 rounded-xl text-xl"
+            className="col-span-4 bg-blue-600 hover:bg-green-500 text-white p-4 rounded-xl text-xl active:scale-80"
           >
             =
           </button>
           <button
             onClick={handleClear}
-            className="bg-red-600 hover:bg-red-500 text-white p-2 rounded-xl text-lg"
+            className="bg-red-600 hover:bg-red-500 text-white p-2 rounded-xl text-lg active:scale-90"
           >
             Clear
           </button>
